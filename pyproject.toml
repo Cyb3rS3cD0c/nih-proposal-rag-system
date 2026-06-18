@@ -1,0 +1,37 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nih-proposal-rag-system"
+version = "0.1.0"
+description = "An NIH-style proposal generation system using RAG and LLM pipelines."
+authors = [
+  { name="Dr. Jay", email="drjaylavoie@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+
+dependencies = [
+  "streamlit",
+  "langchain",
+  "langchain-openai",
+  "langchain-community",
+  "langchain-text-splitters",
+  "openai",
+  "PyPDF2",
+  "faiss-cpu",
+  "reportlab",
+  "sentence-transformers",
+  "tqdm"
+]
+
+[project.urls]
+Homepage = "https://github.com/DrJay/nih-proposal-rag-system"
+
+[tool.setuptools.packages.find]
+where = ["."]
