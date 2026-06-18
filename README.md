@@ -120,7 +120,7 @@ MIT License — see LICENSE for details.
 Cyb3rS3cD0c. NIH Proposal RAG System (2026). GitHub Repository.
 
 <p align="center">
-  <img src="nih-proposal-rag-system\nih_proposal_rag_system\assets\logo.svg" width="500">
+  <img src="https://raw.githubusercontent.com/Cyb3rS3cD0c/nih-proposal-rag-system/master/nih_proposal_rag_system/assets/logo.svg" width="500">
 </p>
 
 <p align="center">
