@@ -1,8 +1,9 @@
+# NIH Proposal RAG System
+
 <p align="center">
   <img src="assets/logo.svg" width="500">
 </p>
 
-# NIH Proposal RAG System
 A modular, retrieval‑augmented generative AI system for automating NIH‑style research proposal development.
 Built for the Johns Hopkins University Generative AI & Agentic AI final project.
 
