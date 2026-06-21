@@ -1,7 +1,8 @@
+```markdown
 <h1 align="center">NIH Proposal RAG System</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cyb3rS3cD0c/nih-proposal-rag-system/master/nih_proposal_rag_system/assets/logo.svg" width="500">
+  <img src="https://raw.githubusercontent.com/Cyb3rS3cD0c/nih-proposal-rag-system/master/assets/logo.svg" width="500">
 </p>
 
 <p align="center">
@@ -12,6 +13,7 @@
   <img src="https://img.shields.io/badge/FAISS-RAG-orange" />
   <img src="https://img.shields.io/badge/Streamlit-App-red" />
 </p>
+```
 
 A modular, retrieval‑augmented generative AI system for automating NIH‑style research proposal development.  
 Built for the Johns Hopkins University Generative AI & Agentic AI final project.
@@ -114,7 +116,7 @@ streamlit run app_nih_proposal.py
 streamlit run streamlit_app/Home.py
 ```
 
-## Usage
+Usage
 
 - Ingest documents (PDFs or text files)
 - Provide a target research direction
@@ -131,8 +133,25 @@ streamlit run streamlit_app/Home.py
   - Project JSON
 - Polish the proposal
 - Simulate reviewer feedback
+```text
+* Ingest documents (PDFs or text files)
+* Provide a target research direction
+* Optionally enable FAISS retrieval
+* Run the NIH pipeline
+* View results:
+- Ranked topics
+- Gaps
+- Ideas
+- Specific Aims
+- Proposal blueprint
+* Download:
+- NIH‑style PDF
+- Project JSON
+*Polish the proposal
+*Simulate reviewer feedback
+```
 
-## Requirements
+Requirements
 
 ```text
 streamlit
@@ -148,6 +167,7 @@ tqdm
 
 ## License
 
+License
 MIT License — see LICENSE for details.
 
 Cyb3rS3cD0c. NIH Proposal RAG System (2026). GitHub Repository.
