@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/FAISS-RAG-orange" />
   <img src="https://img.shields.io/badge/Streamlit-App-red" />
 </p>
+```
 
 A modular, retrieval‑augmented generative AI system for automating NIH‑style research proposal development.  
 Built for the Johns Hopkins University Generative AI & Agentic AI final project.
