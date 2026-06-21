@@ -1,10 +1,6 @@
 <h1 align="center">NIH Proposal RAG System</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cyb3rS3cD0c/nih-proposal-rag-system/master/assets/logo.svg" width="500">
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue" />
   <img src="https://img.shields.io/badge/License-MIT-green" />
   <img src="https://img.shields.io/github/last-commit/Cyb3rS3cD0c/nih-proposal-rag-system" />
