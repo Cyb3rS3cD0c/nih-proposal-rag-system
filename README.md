@@ -119,16 +119,3 @@ tqdm
 MIT License — see LICENSE for details.
 
 Cyb3rS3cD0c. NIH Proposal RAG System (2026). GitHub Repository.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Cyb3rS3cD0c/nih-proposal-rag-system/master/nih_proposal_rag_system/assets/logo.svg" width="500">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
-  <img src="https://img.shields.io/github/last-commit/Cyb3rS3cD0c/nih-proposal-rag-system" />
-  <img src="https://img.shields.io/github/repo-size/Cyb3rS3cD0c/nih-proposal-rag-system" />
-  <img src="https://img.shields.io/badge/FAISS-RAG-orange" />
-  <img src="https://img.shields.io/badge/Streamlit-App-red" />
-</p>
