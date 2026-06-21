@@ -1,43 +1,65 @@
-# NIH Proposal RAG System
+<h1 align="center">NIH Proposal RAG System</h1>
 
 <p align="center">
-  <img src="assets/logo.svg" width="500">
+  <img src="https://raw.githubusercontent.com/Cyb3rS3cD0c/nih-proposal-rag-system/master/nih_proposal_rag_system/assets/logo.svg" width="500">
 </p>
 
-A modular, retrieval‑augmented generative AI system for automating NIH‑style research proposal development.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+  <img src="https://img.shields.io/github/last-commit/Cyb3rS3cD0c/nih-proposal-rag-system" />
+  <img src="https://img.shields.io/github/repo-size/Cyb3rS3cD0c/nih-proposal-rag-system" />
+  <img src="https://img.shields.io/badge/FAISS-RAG-orange" />
+  <img src="https://img.shields.io/badge/Streamlit-App-red" />
+</p>
+
+A modular, retrieval‑augmented generative AI system for automating NIH‑style research proposal development.  
 Built for the Johns Hopkins University Generative AI & Agentic AI final project.
 
+---
+
 ## Overview
-This project implements an end‑to‑end AI assistant that helps researchers generate NIH‑style proposals aligned with a specific Notice of Funding Opportunity (NOFO). The system analyzes prior research papers, extracts topics, evaluates relevance, identifies gaps, generates ideas, drafts Specific Aims, builds a proposal blueprint, and simulates reviewer feedback.
+
+This project implements an end‑to‑end AI assistant that helps researchers generate NIH‑style proposals aligned with a specific Notice of Funding Opportunity (NOFO). The system:
+
+- Analyzes prior research papers  
+- Extracts topics  
+- Scores relevance  
+- Identifies gaps  
+- Generates ideas  
+- Drafts Specific Aims  
+- Builds a proposal blueprint  
+- Simulates reviewer feedback  
 
 The system is available as:
 
-+ A Jupyter notebook (final submission)
-+ A Streamlit application (interactive UI)
-+ A Python package (nih_proposal_rag_system)
+- A Jupyter notebook (final submission)  
+- A Streamlit application (interactive UI)  
+- A Python package (`nih_proposal_rag_system`)  
 
 ---
 
 ## Features
 
-+ **PDF & text ingestion**
-+ **Chunking + embeddings + FAISS retrieval**
-+ **Topic extraction**
-+ **Relevance scoring**
-+ **Gap identification**
-+ **Idea generation**
-+ **Specific Aims drafting**
-+ **Proposal blueprint creation**
-+ **NOFO alignment evaluation**
-+ **Proposal polishing**
-+ **Reviewer simulation**
-+ **Full pipeline execution**
-+ **Streamlit UI**
+- **PDF & text ingestion**
+- **Chunking + embeddings + FAISS retrieval**
+- **Topic extraction**
+- **Relevance scoring**
+- **Gap identification**
+- **Idea generation**
+- **Specific Aims drafting**
+- **Proposal blueprint creation**
+- **NOFO alignment evaluation**
+- **Proposal polishing**
+- **Reviewer simulation**
+- **Full pipeline execution**
+- **Streamlit UI**
 
 ---
 
 ## Project Structure
 
+```text
 nih-proposal-rag-system/
 │
 ├── app_nih_proposal.py
@@ -58,7 +80,7 @@ nih-proposal-rag-system/
 │   └── __init__.py
 │
 ├── notebooks/
-│   ├── final_project.ipynb
+│   └── final_project.ipynb
 │
 ├── assets/
 │   ├── logo.png
@@ -67,43 +89,52 @@ nih-proposal-rag-system/
 ├── requirements.txt
 ├── pyproject.toml
 ├── LICENSE
-├── README.md
 └── .github/workflows/python-ci.yml
-
----
+```
 
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/nih-proposal-rag-system.git
+git clone https://github.com/Cyb3rS3cD0c/nih-proposal-rag-system.git
 cd nih-proposal-rag-system
 pip install -r requirements.txt
+```
 
-## Signle-Page App
+## Running the App
+
+## Single-Page App
+
+```bash
 streamlit run app_nih_proposal.py
+```
 
-## Multipage App
+##M ulti-Page App
+
+```bash
 streamlit run streamlit_app/Home.py
+```
 
 ## Usage
-1.	Ingest documents (PDFs or text files)
-2.	Provide a target research direction
-3.	Optionally enable FAISS retrieval
-4.	Run the NIH pipeline
-5.	View:
-a.	Ranked topics
-b.	Gaps
-c.	Ideas
-d.	Specific Aims
-e.	Proposal blueprint
-6.	Download:
-a.	NIH‑style PDF
-b.	Project JSON
-7.	Polish the proposal
-8.	Simulate reviewer feedback
+
+- Ingest documents (PDFs or text files)
+- Provide a target research direction
+- Optionally enable FAISS retrieval
+- Run the NIH pipeline
+- View results:
+  - Ranked topics
+  - Gaps
+  - Ideas
+  - Specific Aims
+  - Proposal blueprint
+- Download:
+  - NIH‑style PDF
+  - Project JSON
+- Polish the proposal
+- Simulate reviewer feedback
 
 ## Requirements
 
+```text
 streamlit
 langchain
 langchain-openai
@@ -113,6 +144,7 @@ PyPDF2
 faiss-cpu
 reportlab
 tqdm
+```
 
 ## License
 
