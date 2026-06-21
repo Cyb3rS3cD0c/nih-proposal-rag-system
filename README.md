@@ -1,4 +1,3 @@
-```markdown
 <h1 align="center">NIH Proposal RAG System</h1>
 
 <p align="center">
