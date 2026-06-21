@@ -13,12 +13,10 @@
   <img src="https://img.shields.io/badge/FAISS-RAG-orange" />
   <img src="https://img.shields.io/badge/Streamlit-App-red" />
 </p>
-```
 
 A modular, retrieval‑augmented generative AI system for automating NIH‑style research proposal development.  
 Built for the Johns Hopkins University Generative AI & Agentic AI final project.
 
----
 
 ## Overview
 
@@ -39,7 +37,6 @@ The system is available as:
 - A Streamlit application (interactive UI)  
 - A Python package (`nih_proposal_rag_system`)  
 
----
 
 ## Features
 
@@ -57,7 +54,6 @@ The system is available as:
 - **Full pipeline execution**
 - **Streamlit UI**
 
----
 
 ## Project Structure
 
